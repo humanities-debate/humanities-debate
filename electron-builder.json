@@ -1,0 +1,21 @@
+{
+  "appId": "local.humanities.debate.practice",
+  "productName": "인문학 토론 연습",
+  "directories": { "output": "release" },
+  "asar": true,
+  "npmRebuild": false,
+  "files": [
+    "dist/**/*", "desktop/main.mjs", "desktop/preload.cjs", "desktop/security.mjs", "desktop/whisper.mjs", "desktop/whisperOptions.mjs",
+    "desktop-dist/*.mjs", "package.json",
+    "!node_modules/@openai/codex-*/**/*", "node_modules/@openai/codex-sdk/**/*"
+  ],
+  "extraResources": [
+    { "from": "desktop-assets/whisper", "to": "whisper", "filter": ["*.exe", "*.dll", "*.bin", "*.txt", "manifest.json"] },
+    { "from": "node_modules/@openai/codex-win32-x64/vendor/x86_64-pc-windows-msvc", "to": "codex", "filter": ["**/*"] },
+    { "from": "docs/DESKTOP_8A.md", "to": "DESKTOP_8A.md" }
+  ],
+  "win": { "target": ["nsis"], "executableName": "HumanitiesDebate", "signAndEditExecutable": false },
+  "nsis": { "include": "desktop/installer.nsh", "oneClick": false, "perMachine": false, "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true, "createStartMenuShortcut": true, "deleteAppDataOnUninstall": false,
+    "artifactName": "HumanitiesDebate-Setup-${version}-${arch}.${ext}" }
+}

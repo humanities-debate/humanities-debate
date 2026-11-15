@@ -1,0 +1,25 @@
+{
+  "appId": "local.humanities.debate.chrome.validation",
+  "productName": "인문학 토론 Chrome 검증판",
+  "directories": { "output": "release-chrome" },
+  "extraMetadata": { "main": "desktop/chrome-main.mjs" },
+  "asar": true,
+  "npmRebuild": false,
+  "files": [
+    "dist/**/*", "desktop/chrome-main.mjs", "desktop/chrome-server.mjs", "desktop/chrome-profile.mjs", "desktop/chrome-errors.mjs", "desktop/security.mjs", "desktop/chrome/**/*",
+    "desktop-dist/worker.mjs", "desktop-dist/runtime.mjs", "package.json",
+    "!node_modules/@openai/codex-*/**/*", "node_modules/@openai/codex-sdk/**/*"
+  ],
+  "extraResources": [
+    { "from": "node_modules/@openai/codex-win32-x64/vendor/x86_64-pc-windows-msvc", "to": "codex", "filter": ["**/*"] },
+    { "from": "docs/LAUNCHER_8B.md", "to": "LAUNCHER_8B.md" },
+    { "from": "docs/USER_GUIDE.md", "to": "USER_GUIDE.md" },
+    { "from": "docs/PRIVACY.md", "to": "PRIVACY.md" }
+  ],
+  "win": { "target": ["nsis"], "executableName": "HumanitiesDebateChrome", "signAndEditExecutable": false },
+  "nsis": {
+    "oneClick": false, "perMachine": false, "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true, "createStartMenuShortcut": true, "deleteAppDataOnUninstall": false,
+    "artifactName": "HumanitiesDebateChrome-Internal-${version}-${arch}.exe"
+  }
+}

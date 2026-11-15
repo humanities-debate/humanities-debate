@@ -1,0 +1,27 @@
+{
+  "appId": "local.humanities.debate.siwc.ux.internal",
+  "productName": "인문학 토론 공식 연결 UX 내부판",
+  "directories": { "output": "release-siwc" },
+  "extraMetadata": { "main": "desktop/chrome-siwc-main.mjs", "version": "0.0.9" },
+  "asar": true,
+  "npmRebuild": false,
+  "files": [
+    "dist/**/*",
+    "desktop/chrome-siwc-main.mjs", "desktop/chrome-server.mjs", "desktop/siwc-accounts.mjs", "desktop/chrome-errors.mjs", "desktop/security.mjs",
+    "desktop/chrome-siwc/**/*", "desktop/chrome-recovery/**/*",
+    "desktop-dist/siwc/*.mjs", "package.json",
+    "!node_modules/**/*"
+  ],
+  "extraResources": [
+    { "from": "desktop-dist/siwc", "to": "licenses", "filter": ["*.txt"] },
+    { "from": "docs/SIWC_8F_INTEGRATION.md", "to": "SIWC_8F_INTEGRATION.md" },
+    { "from": "docs/SIWC_8F_UX.md", "to": "SIWC_8F_UX.md" },
+    { "from": "docs/USER_GUIDE_SIWC.md", "to": "USER_GUIDE_SIWC.md" }
+  ],
+  "win": { "target": ["nsis"], "executableName": "HumanitiesDebateSIWCUX", "signAndEditExecutable": false },
+  "nsis": {
+    "oneClick": false, "perMachine": false, "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true, "createStartMenuShortcut": true, "deleteAppDataOnUninstall": false,
+    "artifactName": "HumanitiesDebateSIWC-Internal-${version}-${arch}.exe"
+  }
+}

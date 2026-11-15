@@ -1,0 +1,24 @@
+{
+  "extends": "./electron-builder.release-candidate.json",
+  "directories": { "output": "release/v1.0.0" },
+  "extraMetadata": {
+    "version": "1.0.0",
+    "desktopAppId": "org.humanities.debate",
+    "description": "비공식 인문학 토론 연습 프로그램",
+    "license": "SEE LICENSE IN LICENSE_SCOPE.md"
+  },
+  "publish": null,
+  "nsis": {
+    "artifactName": "HumanitiesDebate-Setup-${version}-${arch}.exe",
+    "deleteAppDataOnUninstall": false,
+    "license": "licenses/INSTALLER_LICENSES.txt"
+  },
+  "extraResources": [
+    { "from": "desktop-dist/siwc", "to": "licenses", "filter": ["*.txt"] },
+    { "from": "LICENSE", "to": "licenses/APP_MIT_LICENSE.txt" },
+    { "from": "LICENSE_SCOPE.md", "to": "licenses/LICENSE_SCOPE.md" },
+    { "from": "NOTICE.md", "to": "licenses/NOTICE.md" },
+    { "from": "docs/release/V1_USER_GUIDE.md", "to": "USER_GUIDE.md" },
+    { "from": "docs/release/PRIVACY.md", "to": "PRIVACY.md" }
+  ]
+}

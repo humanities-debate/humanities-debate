@@ -1,0 +1,24 @@
+{
+  "extends": "./electron-builder.siwc-speech.json",
+  "appId": "org.humanities.debate",
+  "productName": "Humanities Debate",
+  "directories": { "output": "release-candidate" },
+  "extraMetadata": { "version": "0.0.11-rc.1", "desktopAppId": "org.humanities.debate", "description": "비공식 인문학 토론 연습 앱 — 배포 전 검증 후보" },
+  "publish": null,
+  "disableAsarIntegrity": false,
+  "electronFuses": {
+    "runAsNode": false,
+    "enableNodeOptionsEnvironmentVariable": false,
+    "enableNodeCliInspectArguments": false,
+    "enableEmbeddedAsarIntegrityValidation": true,
+    "onlyLoadAppFromAsar": true,
+    "grantFileProtocolExtraPrivileges": false
+  },
+  "win": { "target": ["nsis"], "executableName": "HumanitiesDebateSIWCSpeech", "signAndEditExecutable": true },
+  "nsis": { "artifactName": "HumanitiesDebate-Setup-${version}-${arch}.exe", "deleteAppDataOnUninstall": false },
+  "extraResources": [
+    { "from": "desktop-dist/siwc", "to": "licenses", "filter": ["*.txt"] },
+    { "from": "docs/release/USER_GUIDE.md", "to": "USER_GUIDE.md" },
+    { "from": "docs/release/PRIVACY.md", "to": "PRIVACY.md" }
+  ]
+}

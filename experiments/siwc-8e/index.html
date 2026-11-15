@@ -1,0 +1,22 @@
+<!doctype html><html lang="ko"><head><meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>공식 ChatGPT 인증 — 8E 독립 실험</title><link rel="stylesheet" href="style.css"></head>
+<body><main><h1>공식 ChatGPT 인증 — 8E 독립 실험</h1>
+<p>기존 0.0.7과 별도 실행됩니다. 토론 기록을 가져오지 않습니다.</p>
+<p>개인·비상업용 검증입니다. 공개 배포 승인을 뜻하지 않습니다.</p>
+<section><h2>1. 공식 로그인</h2><p id="session" role="status">상태 확인 중</p>
+<button data-action="login">Continue with ChatGPT</button><button data-action="add-account">다른 계정 추가</button>
+<button data-action="cancel">진행 중 작업 취소</button>
+<p><label>저장된 연결 <select id="profiles"><option value="">연결 없음</option></select></label>
+<button data-action="select">선택한 연결 사용</button><button data-action="logout">이 연결 로그아웃</button></p>
+<button data-action="usage">ChatGPT 사용량·접근 관리</button></section>
+<section><h2>2. 실제 AI 응답 1회</h2>
+<p>로그인과 구독 사용 동의 후 모델을 확인하세요. 응답 요청은 본인 계정 사용량을 사용합니다.</p>
+<label>공식 모델 목록 <select id="models"><option value="">로그인 후 확인</option></select></label>
+<button data-action="models">모델 목록 확인</button>
+<p>질문: 인문학 토론 연습용 질문 하나를 한국어 한 문장으로 제안해 주세요.</p>
+<button data-action="smoke" id="smoke">실제 AI 응답 1회 요청</button>
+<p>중복 요청 방지를 위해 이 창에서는 한 번만 시도합니다. 오류 시 자동 재호출하지 않습니다.</p>
+<pre id="result" aria-live="polite">아직 실제 AI 응답을 요청하지 않았습니다.</pre></section>
+<p id="message" role="alert"></p><p>계정 이름·이메일·토큰은 진단 보고서에 출력하지 않습니다.</p>
+</main><script src="renderer.js"></script></body></html>

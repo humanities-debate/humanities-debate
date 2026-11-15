@@ -1,0 +1,10 @@
+{
+  "name": "debate-siwc-8e-prototype",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "jose": "6.1.0",
+    "openai": "7.21.0",
+    "proper-lockfile": "4.1.2"
+  }
+}

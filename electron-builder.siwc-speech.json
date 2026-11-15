@@ -1,0 +1,15 @@
+{
+  "extends": "./electron-builder.siwc.json",
+  "appId": "local.humanities.debate.siwc.speech.internal",
+  "productName": "인문학 토론 음성 수정 내부판",
+  "directories": { "output": "release-siwc-speech" },
+  "extraMetadata": { "version": "0.0.10", "desktopAppId": "local.humanities.debate.siwc.speech.internal" },
+  "win": { "target": ["nsis"], "executableName": "HumanitiesDebateSIWCSpeech", "signAndEditExecutable": false },
+  "extraResources": [
+    { "from": "desktop-dist/siwc", "to": "licenses", "filter": ["*.txt"] },
+    { "from": "docs/SIWC_8F_INTEGRATION.md", "to": "SIWC_8F_INTEGRATION.md" },
+    { "from": "docs/SIWC_8F_UX.md", "to": "SIWC_8F_UX.md" },
+    { "from": "docs/USER_GUIDE_SIWC.md", "to": "USER_GUIDE_SIWC.md" },
+    { "from": "docs/CHROME_SPEECH_0_0_10.md", "to": "CHROME_SPEECH_0_0_10.md" }
+  ]
+}

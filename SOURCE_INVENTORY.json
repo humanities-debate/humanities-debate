@@ -1,0 +1,1043 @@
+{
+  "version": "1.0.0",
+  "licensePending": false,
+  "publicApproved": true,
+  "findings": [],
+  "files": [
+    {
+      "file": ".gitignore",
+      "size": 941,
+      "sha256": "352d8373953a370d70bd5da3d74f32210fd7ff02562a616b31b37a3c84c187a3"
+    },
+    {
+      "file": "LICENSE",
+      "size": 1087,
+      "sha256": "093f752c9bde0f5553737c94efe21ce4a2f319a68f3daf130dbaded50e848996"
+    },
+    {
+      "file": "LICENSE_SCOPE.md",
+      "size": 2657,
+      "sha256": "6fa168d75bbcb7cdd2d9d80372a31670a78844491c6b396758bc2932496b2db4"
+    },
+    {
+      "file": "NOTICE.md",
+      "size": 2666,
+      "sha256": "e9c31721f49378696475573d6b3a31124781ba0a67cb552dea54b652d7f21b22"
+    },
+    {
+      "file": "desktop/chrome-errors.mjs",
+      "size": 853,
+      "sha256": "442f3c5def5c967017b13897e62ce9b812051895c6c14a0931cc44526d16b8ca"
+    },
+    {
+      "file": "desktop/chrome-launch.vbs",
+      "size": 653,
+      "sha256": "2426e3df341f1e41fcc4fc1c4f516a598578068d822de37f1011a52772d78a1a"
+    },
+    {
+      "file": "desktop/chrome-main.mjs",
+      "size": 7170,
+      "sha256": "e0105a8c189857678752d3052ff48d7e8215c49191858ce1ca7dfb9a4ac6ffe5"
+    },
+    {
+      "file": "desktop/chrome-profile.mjs",
+      "size": 723,
+      "sha256": "09555679a0b619e180c3fb29474f5a7e66d364e92fd802a69372836ef61a73c7"
+    },
+    {
+      "file": "desktop/chrome-recovery/portal.css",
+      "size": 318,
+      "sha256": "a72d5d30ab66e18d0f4ddb5dbd33a3246c1999650f8a453bcbb473d31ea50138"
+    },
+    {
+      "file": "desktop/chrome-recovery/portal.html",
+      "size": 843,
+      "sha256": "1b60e2d7d8fddd13a6c22ce4befeb648e154fa3445ea7a52d62091ca8bdfd078"
+    },
+    {
+      "file": "desktop/chrome-recovery/portal.js",
+      "size": 1473,
+      "sha256": "f6d97cdd9e0242ade2b4db1013bafe1e34c265dd3e4bad8d8db15de5a68b9198"
+    },
+    {
+      "file": "desktop/chrome-server.mjs",
+      "size": 5859,
+      "sha256": "948087443f9ae92de47f478127bdc89092721df5584dd6d2c68be879d3cb8e58"
+    },
+    {
+      "file": "desktop/chrome-siwc-main.mjs",
+      "size": 13455,
+      "sha256": "757e4c84eafc4828f3368afc7fd3e28b0ca08a4e2cf16938a3cfa386c4b16c2b"
+    },
+    {
+      "file": "desktop/chrome-siwc/portal.css",
+      "size": 2644,
+      "sha256": "376e55adbed863acfaf7482bd697b5e4b7b03652ab6645cca72f8f072972e5a9"
+    },
+    {
+      "file": "desktop/chrome-siwc/portal.html",
+      "size": 2671,
+      "sha256": "5e4b2ea764036147d039999086a5066bdd12bb0840228ad8ec581524da132576"
+    },
+    {
+      "file": "desktop/chrome-siwc/portal.js",
+      "size": 9606,
+      "sha256": "d92234a876d58464d3263b7c260c960424ee37228be816aaf09f48a3fae809e1"
+    },
+    {
+      "file": "desktop/chrome/portal.css",
+      "size": 544,
+      "sha256": "78f082f6b750be563d0ccbb595703d75c28abb955c98af4ac4cf7a26d1c73090"
+    },
+    {
+      "file": "desktop/chrome/portal.html",
+      "size": 1040,
+      "sha256": "a9babf39e50b9ea60b0046b3592662325a348ad50603c2fba128c3ec187ed6cb"
+    },
+    {
+      "file": "desktop/chrome/portal.js",
+      "size": 2252,
+      "sha256": "ab9a7d218a4ef9de53e681a8999989fea53e0e645c5e4fe5a5473df6822f892d"
+    },
+    {
+      "file": "desktop/installer.nsh",
+      "size": 805,
+      "sha256": "c15a808858068354ab0b345a024b46d3a92e2587f49d8f3df12a00bd7797c3c8"
+    },
+    {
+      "file": "desktop/main.mjs",
+      "size": 10243,
+      "sha256": "1a8166b6d089f36681925b2fbdf978598f4fb2ba2b6991294df1067402228cf6"
+    },
+    {
+      "file": "desktop/preload.cjs",
+      "size": 782,
+      "sha256": "cd3c26e335d245cab36c887fe17de0c9f4d3424da160ea72abe59fe87f7f5cb5"
+    },
+    {
+      "file": "desktop/security.mjs",
+      "size": 2417,
+      "sha256": "cf10ab72930a66ba2bfd58fde699a507866020686485cefaefcc975a851abf14"
+    },
+    {
+      "file": "desktop/siwc-accounts.mjs",
+      "size": 2152,
+      "sha256": "8b442d1026e2b81b54db9e2a4bf0fc42093ca5758985c1dbe79dfdcf79a2e178"
+    },
+    {
+      "file": "desktop/whisper.mjs",
+      "size": 5273,
+      "sha256": "80d6e07360e3981d9ccdddfe980d57046b5cf917f7bf5496a69d29dd73353338"
+    },
+    {
+      "file": "desktop/whisperOptions.mjs",
+      "size": 565,
+      "sha256": "998f2467ba54363ac7e21c7977ed2a6b8428879a6d84024842632df40174f596"
+    },
+    {
+      "file": "desktop/worker.mjs",
+      "size": 5532,
+      "sha256": "052ccaa2bf103f0a56e5543ce07a55c9d79889b7831614c99018e4446797c2ce"
+    },
+    {
+      "file": "docs/release/PRIVACY.md",
+      "size": 2750,
+      "sha256": "3eaa4b4b21cd891d62b0c6938cce8168ac7a30c94fd362a7ef33d137d0dfb85b"
+    },
+    {
+      "file": "docs/release/USER_GUIDE.md",
+      "size": 3637,
+      "sha256": "6c7933af74ccd2a241566a841df192a10b24e56e9b2c4b96e236ec617b6b3803"
+    },
+    {
+      "file": "docs/release/V1_USER_GUIDE.md",
+      "size": 3994,
+      "sha256": "cd390170246e46de38e09a7c0a1ba3202e7d02598ce721273162dc1695c4c86b"
+    },
+    {
+      "file": "electron-builder.chrome.json",
+      "size": 1331,
+      "sha256": "0b6d66843cfe91d43b0c3e5d8b3ddb46b7785aac428db8c7a1112cf79ddb4912"
+    },
+    {
+      "file": "electron-builder.json",
+      "size": 1196,
+      "sha256": "ea261b499b1b47be922e6a4fd4f6042c045f1bd5cdcf73b1b98957ebb5e5ae04"
+    },
+    {
+      "file": "electron-builder.release-candidate.json",
+      "size": 1143,
+      "sha256": "48cc4290d3eca0410eeee72e8947a9df6e2939b49fb8d2f7a8f7d27817a04f26"
+    },
+    {
+      "file": "electron-builder.siwc-speech.json",
+      "size": 837,
+      "sha256": "934495a488c1662b55462f1f20af4b95636e01a9d41e55485701c28b7ce0b140"
+    },
+    {
+      "file": "electron-builder.siwc.json",
+      "size": 1314,
+      "sha256": "49fb23a590d6bfe5702a2c3398243bad869f40ca8286ad01be8b1a9df2a929e3"
+    },
+    {
+      "file": "electron-builder.v1.json",
+      "size": 946,
+      "sha256": "92de314b6df0f81cd93bd26f9c3afb69f4dfad74964a2a76f6acfabe232c2aa8"
+    },
+    {
+      "file": "eslint.config.js",
+      "size": 1148,
+      "sha256": "71bf375d8a79b87e0c7bb6238e79839d9df643f3218289c37d0160e8634955e1"
+    },
+    {
+      "file": "experiments/siwc-8e/index.html",
+      "size": 2118,
+      "sha256": "e88e00ff88141213704f8e4194e616ae92a588909ab5a93ba440da104fba6224"
+    },
+    {
+      "file": "experiments/siwc-8e/main.mjs",
+      "size": 11375,
+      "sha256": "379b26b3fc47e68eb78431f209b51ab30fdad4bb6e6713845195836b41b17490"
+    },
+    {
+      "file": "experiments/siwc-8e/package-lock.json",
+      "size": 3032,
+      "sha256": "4dd9535607e0c20419bb28cf810cfc7596483f5c165e5187093fb185983372ff"
+    },
+    {
+      "file": "experiments/siwc-8e/package.json",
+      "size": 181,
+      "sha256": "a967821b28a5d92afc1c95f3c70745b9baa64583c022336fc3704b409209a06b"
+    },
+    {
+      "file": "experiments/siwc-8e/policy.mjs",
+      "size": 2820,
+      "sha256": "b973e2651861caac5a6ecc0afa9b40381881821657536257b42a06832aa6169d"
+    },
+    {
+      "file": "experiments/siwc-8e/prepare.mjs",
+      "size": 2284,
+      "sha256": "e7eeeef89309390653f039473fb4ae6cf00e40ddd8af0af1848971db39f1e4c6"
+    },
+    {
+      "file": "experiments/siwc-8e/renderer.js",
+      "size": 3094,
+      "sha256": "26eb6b3cf3bb2aa2db6e95a96104d7d62420f4b5e67a577a0bbf2f4bae79be54"
+    },
+    {
+      "file": "experiments/siwc-8e/run.mjs",
+      "size": 986,
+      "sha256": "98683d1d8aef900fa72ba303cee0a34fdbc2891cdac9dd0645d9ff8bc3c70de6"
+    },
+    {
+      "file": "experiments/siwc-8e/source.json",
+      "size": 1095,
+      "sha256": "694a91b8af9d733a4a61e9c56d58e920ecbdc6dfb3c11a1245bab40e625bbf16"
+    },
+    {
+      "file": "experiments/siwc-8e/style.css",
+      "size": 659,
+      "sha256": "2278631f295f476a51b2bf428053e10723b4cac6bb847aa8f86e50abdd7eb562"
+    },
+    {
+      "file": "index.html",
+      "size": 495,
+      "sha256": "2d7e1c66d02d698869d3dbfcaa157f8b7e8d5f01a6ebbc0c87e2812e3940705d"
+    },
+    {
+      "file": "licenses/DEVKIT_LICENSE.txt",
+      "size": 5302,
+      "sha256": "d12fe9f3c01626a133398d70e672b5591c38b1819f3da852b1e3ef8da606facd"
+    },
+    {
+      "file": "licenses/INSTALLER_LICENSES.txt",
+      "size": 6769,
+      "sha256": "bc8c5bde7f65fc323616d079a574fc00305bd899395e16d5098e7f74baac48a1"
+    },
+    {
+      "file": "package-lock.json",
+      "size": 234806,
+      "sha256": "e6938aea943ae9b1ad12438eabacbf5e812a86abae4ffbbaffbe325afc0fc545"
+    },
+    {
+      "file": "package.json",
+      "size": 2887,
+      "sha256": "2fb83774ea9185b4bcd9137e3a0cb635f8822d072fe7749c534bf06720e7c2ce"
+    },
+    {
+      "file": "public/favicon.svg",
+      "size": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "file": "public/icons.svg",
+      "size": 5031,
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+    },
+    {
+      "file": "scripts/benchmark-whisper.mjs",
+      "size": 1765,
+      "sha256": "d6027e0f13d9aaf0a455483d6d0b51964c66ba3ae3f545e4c1658d9d8f2d53c8"
+    },
+    {
+      "file": "scripts/benchmark-whisper.ps1",
+      "size": 1386,
+      "sha256": "b9dc7a7db4ad46a1123bbb06cb7a1ff229e9bf42a6546557bb3c4726e2c29079"
+    },
+    {
+      "file": "scripts/build-chrome-prototype.mjs",
+      "size": 622,
+      "sha256": "3a368acc1fc396641fda006819c0d0af6b6e61c381d2ca321edc1078a836dc9b"
+    },
+    {
+      "file": "scripts/build-desktop.mjs",
+      "size": 851,
+      "sha256": "329955a25dea27be51277b4e8a64842a6662d46c1b8257305f97d54176180df7"
+    },
+    {
+      "file": "scripts/build-siwc.mjs",
+      "size": 5025,
+      "sha256": "2d0c8e4ce4639e12eada75baab479a2f54d8ab59ce36026398e9f852db3c0be7"
+    },
+    {
+      "file": "scripts/codex-smoke-policy.mjs",
+      "size": 2614,
+      "sha256": "f20cf09917069c7818b8340cf7cde5c7a266cf85bec3ee056103da962780a1c2"
+    },
+    {
+      "file": "scripts/codex-smoke.mjs",
+      "size": 7295,
+      "sha256": "78f876f253dcdf3155670ec9471936df3c69428f78c25b2dc3cdc0b48733be32"
+    },
+    {
+      "file": "scripts/create-chrome-shortcuts.ps1",
+      "size": 697,
+      "sha256": "5f8b6e255551b3386af8337e025c17f2380599f17bb2bf0d6ec62b698f9393d8"
+    },
+    {
+      "file": "scripts/diagnose-whisper-end.mjs",
+      "size": 1291,
+      "sha256": "b8fefef0e40045d80f3dc3b3ee51738a420ecd1e0f6c388096f51074c9c5412c"
+    },
+    {
+      "file": "scripts/generate-whisper-fixtures.ps1",
+      "size": 2276,
+      "sha256": "d9bf54039bacbe849ba743f454494c111752ef04eb3a711f071ab8487c9035ef"
+    },
+    {
+      "file": "scripts/prepare-release-source.mjs",
+      "size": 9096,
+      "sha256": "103697fe7e92cb9d1e54f323aab8548cb80afe06f5ac942105404219c93e9830"
+    },
+    {
+      "file": "scripts/prepare-whisper.mjs",
+      "size": 3868,
+      "sha256": "3f76e77b448acc7dfdeee351c387d8cb18449d56b537414e1d64c9ebea259639"
+    },
+    {
+      "file": "scripts/release-policy.mjs",
+      "size": 1129,
+      "sha256": "c937766870090e7edea8c842324e907282de15f1a61218e5e906c995489a8b70"
+    },
+    {
+      "file": "scripts/run-desktop.mjs",
+      "size": 1003,
+      "sha256": "6dae251f136bdf0f002c6f51c1dae909fa012c9ef259dcc838989a4597007db4"
+    },
+    {
+      "file": "scripts/run-siwc.mjs",
+      "size": 972,
+      "sha256": "ee1b7029328e5cbacb381e282d5098e3f4ac68dcdcda4494f2f78da3d6ed649a"
+    },
+    {
+      "file": "scripts/verify-chrome-isolation.mjs",
+      "size": 3697,
+      "sha256": "284533022c10c6b812e15a113d8061faa453b5f2d1bdb99a53e574178f431508"
+    },
+    {
+      "file": "scripts/verify-chrome-package.mjs",
+      "size": 4688,
+      "sha256": "0f349b6f4ec7a05730a031453a10fc1a36310a6fc3264531589a71fc1d42391c"
+    },
+    {
+      "file": "scripts/verify-chrome-prototype.mjs",
+      "size": 11580,
+      "sha256": "81c6ae3482b306c576dfe19baad838bd8bd3024a2512e77c40cc251f042bda9c"
+    },
+    {
+      "file": "scripts/verify-chrome-speech.mjs",
+      "size": 10293,
+      "sha256": "f5a68bf17d181aab1e53e69de968659d7dda1d514acd81161f47b61118789bcd"
+    },
+    {
+      "file": "scripts/verify-codex-tool-surface.mjs",
+      "size": 3941,
+      "sha256": "3873f4e563e50ba9a106a607ce80faa77a8a32e5ddebb2554a68871f836947da"
+    },
+    {
+      "file": "scripts/verify-debate-progress.mjs",
+      "size": 3157,
+      "sha256": "e6df96add350495436534801c54b9da163f789938b5d247b4f8a6fa5ed1eee3e"
+    },
+    {
+      "file": "scripts/verify-debate.mjs",
+      "size": 3282,
+      "sha256": "68cc9dea823377e4104dc61bc86454fe3f7a35564c60e54fea84a97f17862be1"
+    },
+    {
+      "file": "scripts/verify-desktop-package.mjs",
+      "size": 2003,
+      "sha256": "df18e7685b3ab62691202032b3c7f3859b3e2471202e65f8cc74dd84e46412d8"
+    },
+    {
+      "file": "scripts/verify-desktop.mjs",
+      "size": 3588,
+      "sha256": "0d2017025eb29ae5166f8db66ad27aad68b7e800af9721efb0450ef0a0d38fd1"
+    },
+    {
+      "file": "scripts/verify-dialogue-style.mjs",
+      "size": 4239,
+      "sha256": "03ed5090987882c5cc5b99efb8470581304325a6e3cedcc8c4ea5b5fb30721d0"
+    },
+    {
+      "file": "scripts/verify-feedback.mjs",
+      "size": 2557,
+      "sha256": "9ce124312d41d9412600d6bbe6680c6ef4b65b1bbad6602d6f73efc11e93f88a"
+    },
+    {
+      "file": "scripts/verify-installer-lifecycle.mjs",
+      "size": 5692,
+      "sha256": "dbaa886e02096d4f1cd5e8f162ac44aa6e38be52c83596c237655b72680c34bf"
+    },
+    {
+      "file": "scripts/verify-local-whisper.mjs",
+      "size": 4704,
+      "sha256": "6b1e2ef07fe9cb29c585b1cbbf0abc700fbe7f6fc78a8a001e67179c69622914"
+    },
+    {
+      "file": "scripts/verify-model-routing.mjs",
+      "size": 5409,
+      "sha256": "943c29758a25661f4bf7bdd2aff53982b4bba7a2946b33e3ab04afea58feaed5"
+    },
+    {
+      "file": "scripts/verify-models.mjs",
+      "size": 3484,
+      "sha256": "9335673e3ead421959171c4330c46e709756e90763ce9cb2cb6994d3c5f2b8ae"
+    },
+    {
+      "file": "scripts/verify-packaged-ai.mjs",
+      "size": 2960,
+      "sha256": "387166381dd09475249cf7ceab40067fcfdbe24d7ec896d5bdd861f2120e4743"
+    },
+    {
+      "file": "scripts/verify-packaged-speech.mjs",
+      "size": 9179,
+      "sha256": "dbfd1df652207d2e0634aeef910a769da28c641a4dd64fa78eac8a1612aed7c4"
+    },
+    {
+      "file": "scripts/verify-packaged-ui.mjs",
+      "size": 6830,
+      "sha256": "6ca7bd12ffcf9442bc9763a804b3e5fc3822a6651a508b037dde3813db504d3b"
+    },
+    {
+      "file": "scripts/verify-presets.mjs",
+      "size": 3556,
+      "sha256": "a2235d55f571f418af1cda9bf388b52889362db5a0f559dd4f8b364203cbd0da"
+    },
+    {
+      "file": "scripts/verify-private-logs.mjs",
+      "size": 2965,
+      "sha256": "f329061877624d32dc8ea5c8c70fe8b5e8ea98bf8927e43c275a07479a883be9"
+    },
+    {
+      "file": "scripts/verify-records-browser.mjs",
+      "size": 28601,
+      "sha256": "cb0364cbb212c2e004796253e4af0636a98d811cb50f64f3f4c1de29e337bd38"
+    },
+    {
+      "file": "scripts/verify-release-candidate.mjs",
+      "size": 8541,
+      "sha256": "9a538ca64322fe014e27ef5c90b5cd731ce4b1fc87e5950f55029989fbf9dc14"
+    },
+    {
+      "file": "scripts/verify-siwc-package.mjs",
+      "size": 5369,
+      "sha256": "3be6a82a6301157ad76354a13337f822a4fc94ba5676de6c6b98613d3e0c1587"
+    },
+    {
+      "file": "scripts/verify-siwc-startup.mjs",
+      "size": 3701,
+      "sha256": "11df417fbcf4473a5278c860f07fc4565e962785a2d705f7ecf306121f1cfb9f"
+    },
+    {
+      "file": "scripts/verify-topic-context.mjs",
+      "size": 2819,
+      "sha256": "bc6baf5116f448584a5f3402ad05824dc17020248c5506f2bbbd63e30197a01b"
+    },
+    {
+      "file": "scripts/verify-topic-ui.mjs",
+      "size": 10801,
+      "sha256": "30fc05f288b3637f62a5959fe93541dfc339373d995f63dc6686c339c93e3c2b"
+    },
+    {
+      "file": "scripts/verify-whisper-quality.mjs",
+      "size": 5224,
+      "sha256": "8c18f507a77b33f0ca85371ad30eda62ff8967727bc06dcf77d217493c99103a"
+    },
+    {
+      "file": "server/codexRuntime.mjs",
+      "size": 10701,
+      "sha256": "d5e2375925ff24103d2e8de560e8aecd8e11888e62d22d3e561570e6623f4afd"
+    },
+    {
+      "file": "server/dialogue.mjs",
+      "size": 23860,
+      "sha256": "2c5b97ba6312810a13a79b1e3e5c29bfeeea02a4b85642de73106b9e0feaa2da"
+    },
+    {
+      "file": "server/feedback.mjs",
+      "size": 6573,
+      "sha256": "8f82e99a1bf3c031aa7ecef56205671e7235c86203ff8f75a1c7a46f586a043f"
+    },
+    {
+      "file": "server/feedbackRubric.mjs",
+      "size": 4391,
+      "sha256": "e3fc6a1baf45658a1f1082888f913a1ab03c91381479a75ba140383884279259"
+    },
+    {
+      "file": "server/http.mjs",
+      "size": 5418,
+      "sha256": "5083ab4cb39ba1b46c8f1b811e2d2583aa5be70409b226eed9dd0407e4981732"
+    },
+    {
+      "file": "server/index.mjs",
+      "size": 1655,
+      "sha256": "eae9cb1ddfbc5505d0a7dc48720237ec922521fcb7bbbdb0b6282f8eec6f5b57"
+    },
+    {
+      "file": "server/modelCatalog.mjs",
+      "size": 4292,
+      "sha256": "059f2a31b520a27e9f9fdb9bd59f8452221fdcb13563abe7de3cf79e11fe0203"
+    },
+    {
+      "file": "server/siwcModels.mjs",
+      "size": 1765,
+      "sha256": "cbb6270b5f14d5d89f484520c6bb604b1fe4d7a4851b6c770bf5eb85adb9d6d7"
+    },
+    {
+      "file": "server/siwcResponses.mjs",
+      "size": 3316,
+      "sha256": "df8ae9b02021335bc9795701abe7a8857c1aff47f15a2ac40430245c26ab1da3"
+    },
+    {
+      "file": "server/siwcRuntime.mjs",
+      "size": 5166,
+      "sha256": "8711a5b1e98ae355ead4ec825c7e0dc908b41b29a1a84182d94ff0e05bcd86a5"
+    },
+    {
+      "file": "server/stanceApproval.mjs",
+      "size": 6038,
+      "sha256": "c2f2b3779d37d3b4cee5942c227e147fbd73903d00134eeb0aa9f7dcd33f8611"
+    },
+    {
+      "file": "server/stanceChoices.mjs",
+      "size": 7370,
+      "sha256": "92021b91916961f0763cc39aff7edbe1897d4f602ae7fc3c67e3318dfad05107"
+    },
+    {
+      "file": "server/stances.mjs",
+      "size": 4201,
+      "sha256": "f3346503ef6443bebcf464931c554802c7545d2ed2b7538a28e56cdbcaea6e29"
+    },
+    {
+      "file": "src/App.css",
+      "size": 23619,
+      "sha256": "c4242a6f4730853082cd85ef7d68ce07d546bd064430d6ce654087037166e6f0"
+    },
+    {
+      "file": "src/App.tsx",
+      "size": 19862,
+      "sha256": "7a5ee707426031cac6556335787174b1e3d475cc39e769a091049b85c0a39e6a"
+    },
+    {
+      "file": "src/assets/hero.png",
+      "size": 13057,
+      "sha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c"
+    },
+    {
+      "file": "src/assets/react.svg",
+      "size": 4126,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+    },
+    {
+      "file": "src/assets/vite.svg",
+      "size": 8709,
+      "sha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f"
+    },
+    {
+      "file": "src/components/AILevelSettings.tsx",
+      "size": 4096,
+      "sha256": "2c42d69a1b2c8479203b5750e14f0918b1fa7190aef31b219411cbd03ed11f3a"
+    },
+    {
+      "file": "src/components/DesktopStatus.tsx",
+      "size": 2026,
+      "sha256": "20f4312e3a196a042b9867afcfd95e1ab0cf3e3cf09a22b510424f0f2f6e263d"
+    },
+    {
+      "file": "src/components/FeedbackPanel.tsx",
+      "size": 8581,
+      "sha256": "dff2b9f5501391088410d30e69c2ef77da5ee8fcadcae644e6fe0a84c4ab5440"
+    },
+    {
+      "file": "src/components/ParticipantRow.tsx",
+      "size": 3309,
+      "sha256": "1580067d400d598c1630fc2e2604e395fc2c7165fcc1445eecd82f9ac5239ded"
+    },
+    {
+      "file": "src/components/RecordScreens.tsx",
+      "size": 6219,
+      "sha256": "6f6fa126421a98e3f8fe834d41cde18c415c36b537c782f63a0f360f7a429cae"
+    },
+    {
+      "file": "src/components/RecordTransfer.tsx",
+      "size": 3895,
+      "sha256": "b9c79cec4e2e24cd9ddaa14acd46b20b0af211da29003f32e27f32095006f2bf"
+    },
+    {
+      "file": "src/components/TopicExplanation.tsx",
+      "size": 1128,
+      "sha256": "221aedd2293fa9cf39ba0c0e623483df3f25733b40d640eec0a479a324dc293b"
+    },
+    {
+      "file": "src/components/TopicSelector.tsx",
+      "size": 2640,
+      "sha256": "56b5b09dff5641c1494e0aa62156222cc07f8d20f721b607a8db89bb06026eb9"
+    },
+    {
+      "file": "src/components/UserInput.tsx",
+      "size": 4128,
+      "sha256": "c701e9bb119d3421383713c5c6c22705dcd58e41749f4747dfa33d60037a823c"
+    },
+    {
+      "file": "src/config/aiPresets.ts",
+      "size": 5278,
+      "sha256": "866e5a31439cbfe2c588fdc4a289653e3bfd8ff56489b910c62da29c0f01503a"
+    },
+    {
+      "file": "src/data/mockDebate.ts",
+      "size": 684,
+      "sha256": "4d72c6042223a231f23131f82ba7dae4f35624530a6c170934c7839bfc5f7e47"
+    },
+    {
+      "file": "src/data/mockDialogue.ts",
+      "size": 7435,
+      "sha256": "ec52e5426a87f83d423682878b232f329558d6bc4fa7199a059baf78a17d9682"
+    },
+    {
+      "file": "src/data/personas.ts",
+      "size": 4670,
+      "sha256": "bad8b7f70105124191e5dc7af3814d0072c4fb7b3fe95f4a9ac453a774dcb353"
+    },
+    {
+      "file": "src/data/topics.ts",
+      "size": 22633,
+      "sha256": "a57281894eb488d80db566307d97986f0321ed805d98f847180fa3615eef15e2"
+    },
+    {
+      "file": "src/desktop.ts",
+      "size": 967,
+      "sha256": "4c3cd7afd60f48348eec823c1797fecb5bc234d212d0dc014ab2f867bb8e500d"
+    },
+    {
+      "file": "src/hooks/useAIModels.ts",
+      "size": 2973,
+      "sha256": "9b57b8039b8002d6e625a6bc44a124e70960a6fb9b3745e4299521c0190bfd72"
+    },
+    {
+      "file": "src/hooks/useDebate.ts",
+      "size": 2963,
+      "sha256": "faaff7044b9d0cc737df59e752104866f6e603860250a63c05dfbb4550e8dc12"
+    },
+    {
+      "file": "src/hooks/useRecords.ts",
+      "size": 1413,
+      "sha256": "443199b2982af50489b39e7fb0dab0b8bd985b1df95bd26f2c2519978f82763c"
+    },
+    {
+      "file": "src/hooks/useSpeechRecognition.ts",
+      "size": 2692,
+      "sha256": "1b0d35678312d8f7f993fb7f1d51570558498a0c98280b3d188f851d95323330"
+    },
+    {
+      "file": "src/index.css",
+      "size": 1424,
+      "sha256": "dbe3e8ec3b88efb62c4bea157a5b1006a9244169fcfbcadc2dff2f3f8802a8da"
+    },
+    {
+      "file": "src/logic/contribution.ts",
+      "size": 5934,
+      "sha256": "2041250b560ee1e7f7594734e45f5eeb9d21fbbc588909f3383d20f941d350b8"
+    },
+    {
+      "file": "src/logic/debate.ts",
+      "size": 14332,
+      "sha256": "e7055d000d599498bde5394338cd601ebb2639ee2c742c8a4033219e464955ac"
+    },
+    {
+      "file": "src/logic/debateMetadata.ts",
+      "size": 805,
+      "sha256": "8a40a1e601e8fa5b938ba1a9576549e1ee92b3053c35e394e13ec0d7a8d63582"
+    },
+    {
+      "file": "src/logic/discussion.ts",
+      "size": 8721,
+      "sha256": "de7afb2edbaae1910b24f23965b6db70977638c8e5e93eeab7b4f05708c35cd2"
+    },
+    {
+      "file": "src/logic/launcherNavigation.ts",
+      "size": 690,
+      "sha256": "936890557dc6488ba544de9b1a333be99caa8c6cb7795513019443b56eb8f28e"
+    },
+    {
+      "file": "src/logic/topics.ts",
+      "size": 1695,
+      "sha256": "8fdaecb969f5816280a1f01e8af9407910574c860bfb68650ac5f8c9596b92f7"
+    },
+    {
+      "file": "src/logic/turnScheduler.ts",
+      "size": 2316,
+      "sha256": "cfa09da34520f4149f8ad3925f94979b9715e430755a6c6696c4bb9074926f7b"
+    },
+    {
+      "file": "src/logic/userReplyTarget.ts",
+      "size": 5349,
+      "sha256": "5dc89e3ace840ea3a4ba5adf09c5c2bfd38a990d454c8d8112e4115d21b42fa2"
+    },
+    {
+      "file": "src/main.tsx",
+      "size": 315,
+      "sha256": "fe00fafb5d775c2360c99208e55bfdf5a1fc2dd006295036183fcaf26e239aae"
+    },
+    {
+      "file": "src/providers/AIProvider.ts",
+      "size": 473,
+      "sha256": "54b60a8248fcf72fa4c01ad32b7e7bebe8336a95d628cd0fd8920105bc739be4"
+    },
+    {
+      "file": "src/providers/LocalAIProvider.ts",
+      "size": 6031,
+      "sha256": "f72a2603769c920af1d043db169aa257ffe0f09f04671533230a156b7e64fe96"
+    },
+    {
+      "file": "src/providers/MockAIProvider.ts",
+      "size": 2616,
+      "sha256": "73b2c6b9fd81f09371db0000b1f64c4b30e8e2e14ab8ee76a6dac72be0be4459"
+    },
+    {
+      "file": "src/providers/topicMock.ts",
+      "size": 2534,
+      "sha256": "226c124c036afc045b81bce9c5527f78f7d83082e9f950105373f31703ba6e60"
+    },
+    {
+      "file": "src/records/feedback.ts",
+      "size": 7097,
+      "sha256": "cf61b5843d8705d82b62229903ec143fb72f5725df14bc3abae6d464f0308394"
+    },
+    {
+      "file": "src/records/feedbackClient.ts",
+      "size": 4669,
+      "sha256": "35845cc4074e70a295af9fc4190697412c2103b45e26432ec33226eae3ea5c20"
+    },
+    {
+      "file": "src/records/feedbackTask.ts",
+      "size": 2120,
+      "sha256": "f8cd772c052f556a21925d6bcf2a424e3e0d1cb7dadff75061147768a057aea5"
+    },
+    {
+      "file": "src/records/library.ts",
+      "size": 3612,
+      "sha256": "cc6a58b36a28a1d095fce5a29f647b9e7d9add8df6d29d468cf37b45e47a428c"
+    },
+    {
+      "file": "src/records/record.ts",
+      "size": 6630,
+      "sha256": "6cdbf707a0c335a1d60d7253b14646f1be36a3e32b635b5983b34a96334633e4"
+    },
+    {
+      "file": "src/records/repository.ts",
+      "size": 3417,
+      "sha256": "8e499569f37dca6e8335799e71e34d0b4f0e89c17a7de0b11917d1c21ffbfc88"
+    },
+    {
+      "file": "src/records/transfer.ts",
+      "size": 3954,
+      "sha256": "55dc0e54a80c69c96a54eb2412a4d3efeac3c48de3dc6b33dc1db76b1ef34e8e"
+    },
+    {
+      "file": "src/speech/endMarker.ts",
+      "size": 453,
+      "sha256": "f955a645fe8299c747d1818f36581094074cb748bd8b4c3b2cfff9add5cd74f8"
+    },
+    {
+      "file": "src/speech/localSession.ts",
+      "size": 7346,
+      "sha256": "cbce9f07c62cfbf8cb5e729b5e2b20f6f09eb0d15a70001bed6d1421553559a3"
+    },
+    {
+      "file": "src/speech/pcmCapture.ts",
+      "size": 3752,
+      "sha256": "16988f717e3418619bab2767a1e9a21a14242d76c7e8651e92f14af13f906ebb"
+    },
+    {
+      "file": "src/speech/pcmWorklet.js",
+      "size": 973,
+      "sha256": "e801ddf18bf7a2612e99268bc632e3a03c27e49dc274d4564dbb6e11488daf77"
+    },
+    {
+      "file": "src/speech/previewWindow.ts",
+      "size": 1636,
+      "sha256": "3b24b2606b8b0b94cda8553d1307418ce58c37481b05856c82b1dfde5c505b88"
+    },
+    {
+      "file": "src/speech/session.ts",
+      "size": 13062,
+      "sha256": "9241be138efe8f407c7871a2db9d06f3687d3ff9e29b546f927c3fb568c6be38"
+    },
+    {
+      "file": "src/speech/types.ts",
+      "size": 2677,
+      "sha256": "8646bb1ea0bd4b0769531249c600bb3175e9a22a2d2b724d59c2b84ea79cb352"
+    },
+    {
+      "file": "src/types/debate.ts",
+      "size": 1913,
+      "sha256": "3b61ce8561704fbadc0b2d93e8160c7b82c00fef17a13e412e28d183603c8fed"
+    },
+    {
+      "file": "tests/chromePrototype.test.mjs",
+      "size": 8051,
+      "sha256": "82ff020ba34198dcbc409826c42d93dcd508dea53e3469c937aeff42b0d9a9ac"
+    },
+    {
+      "file": "tests/codex-smoke.test.mjs",
+      "size": 2012,
+      "sha256": "ec9234e431b781134f3449be931823ef47a510391a38b53d3d0b3181e1ba6e49"
+    },
+    {
+      "file": "tests/contribution.test.mjs",
+      "size": 14062,
+      "sha256": "7683d1ce62a5d7c5ed63e47aee95b5a8afce4c3a1624f2bdda9e57d5fe1be325"
+    },
+    {
+      "file": "tests/debate.test.mjs",
+      "size": 17304,
+      "sha256": "d74da874052c0acb06303535cdfa77c988a65ef4bb88f2730586023142f23d81"
+    },
+    {
+      "file": "tests/debateContext.test.mjs",
+      "size": 10690,
+      "sha256": "de75f5a6af0ae653c70471774d1f997d705aa5afa26dec67b1896579cb8e799f"
+    },
+    {
+      "file": "tests/desktop.test.mjs",
+      "size": 3629,
+      "sha256": "7398e244ccaa220c94f9a393cbebaa9a80f417e48be383dd2283ae9d7247e1b0"
+    },
+    {
+      "file": "tests/discussion.test.mjs",
+      "size": 10531,
+      "sha256": "d0dba28042a076573b3b2b6f59b98d4e3f2607f7729d1294953cd49fc3fc2dfb"
+    },
+    {
+      "file": "tests/endMarkerUI.test.mjs",
+      "size": 3057,
+      "sha256": "4f2cf7c066fe59db1d16d98a2857369f08d02a8756fccb9e064c75f211f1a00c"
+    },
+    {
+      "file": "tests/feedback.test.mjs",
+      "size": 12202,
+      "sha256": "2afbcc3de8c2fdacae7b1226b88413ca1649f1d763df1c872e2b4df998e9a9ef"
+    },
+    {
+      "file": "tests/fixtures/feedback.mjs",
+      "size": 4120,
+      "sha256": "915ac608cd6e146d268092bc4074640f7b66a8b3f3fd21345ad5bca6b15941d6"
+    },
+    {
+      "file": "tests/fixtures/quality.mjs",
+      "size": 6179,
+      "sha256": "dd8755f93697b822d76a266a40f6cf16d2c2f045483c335cfe0b81218ecb0940"
+    },
+    {
+      "file": "tests/localProvider.test.mjs",
+      "size": 4114,
+      "sha256": "1d00a899db312b357b79807c441bb8714fe2c23f889ecf2fc37bf110fc65c861"
+    },
+    {
+      "file": "tests/localSpeech.test.mjs",
+      "size": 14863,
+      "sha256": "a974ecef37808490c4644807ee39445db5ca6c1e1b061140d9b2637384f2d639"
+    },
+    {
+      "file": "tests/mockDialogue.test.mjs",
+      "size": 4657,
+      "sha256": "02f3cc4f69e137cd0813e5c693ae2140b694971f3eedbd135b718a127488b9a3"
+    },
+    {
+      "file": "tests/modelSettings.test.mjs",
+      "size": 5934,
+      "sha256": "cc66b4a577f3ca257fa99e89956da4f44f8541e15c2ea5f5d29c117820c1ab9e"
+    },
+    {
+      "file": "tests/pcmCapture.test.mjs",
+      "size": 3001,
+      "sha256": "d4e60e97149ff57503572f421312bf1ca5071bd2dfd41f611d8f0d63d4f0d2a2"
+    },
+    {
+      "file": "tests/presets.test.mjs",
+      "size": 8752,
+      "sha256": "6edcff751e4a9648b7ae9f1f32e0818d04eefdf0f1d0e2de99dd34f0892ecf27"
+    },
+    {
+      "file": "tests/realAI.test.mjs",
+      "size": 9855,
+      "sha256": "3a29f853ef8ee2c55500bfa0339badb13d9f5350d8a22726ce8ac33f84d7b943"
+    },
+    {
+      "file": "tests/records.test.mjs",
+      "size": 11610,
+      "sha256": "54ec9ed56d798d8f4975a8a6a639c9d8f1115067c541bbe1e6bb8c1d884a35ff"
+    },
+    {
+      "file": "tests/releaseSecurity.test.mjs",
+      "size": 2070,
+      "sha256": "05881362f015469edfaaeaac4cdca5cc8ec4adb26dc307d769c38ed648bcec6f"
+    },
+    {
+      "file": "tests/releaseV1.test.mjs",
+      "size": 2058,
+      "sha256": "ed3017f721d4c7099d7979895dfca2a7bd58585f3024b1c547da4f9cd7eb3656"
+    },
+    {
+      "file": "tests/siwcIntegration.test.mjs",
+      "size": 11608,
+      "sha256": "b0646f7a4e21a7fd0f773d17678d05b06c4b9b219eb57a468fbe054678c8ae17"
+    },
+    {
+      "file": "tests/siwcPortal.test.mjs",
+      "size": 8769,
+      "sha256": "8ebf2e9bd52975c8caa4763741c7b35dfe8f06bcaae6920def8d797dd4c84b52"
+    },
+    {
+      "file": "tests/siwcPrototype.test.mjs",
+      "size": 14391,
+      "sha256": "5479888c30281189039951952b697c156a910e794a398f324df7a2eb835eaffc"
+    },
+    {
+      "file": "tests/speakerSelection.test.mjs",
+      "size": 12244,
+      "sha256": "7cc923bc79da5236801d84e49065f2dbc23d62d21e1e6c9f87642a64fd99006a"
+    },
+    {
+      "file": "tests/speech.test.mjs",
+      "size": 23722,
+      "sha256": "be214a4ea173a96f35b8fdfdf34ad54a34c702ce15d28b9cfa749188e47c5cbc"
+    },
+    {
+      "file": "tests/stanceApproval.test.mjs",
+      "size": 9164,
+      "sha256": "478c38f5a0599ac1ce94f7ca7287db726072c1509e534a7914df36ad6a8f1867"
+    },
+    {
+      "file": "tests/stanceFeedback.test.mjs",
+      "size": 6649,
+      "sha256": "b021a052da080cce46620df50d8f3279998852f96606321f66014ee0638e0445"
+    },
+    {
+      "file": "tests/stanceLabels.test.mjs",
+      "size": 4514,
+      "sha256": "9604f5117bc4a806e87925aa0e64a750eb09d9b75cc42406b8b852607fc0961c"
+    },
+    {
+      "file": "tests/topicContext.test.mjs",
+      "size": 4615,
+      "sha256": "4b792fada258f6ebde30470e879059e937381775ebd246560b5d3003e62597b9"
+    },
+    {
+      "file": "tests/topics.test.mjs",
+      "size": 9003,
+      "sha256": "03c5517087cd4510003a0488817c5fe8dd0bda980a664e3e06d7e4fdbb631b35"
+    },
+    {
+      "file": "tsconfig.app.json",
+      "size": 655,
+      "sha256": "8e5d12ba330e7d86409edec74b95451e0db22ee09b9426c94b5bf817571eddb0"
+    },
+    {
+      "file": "tsconfig.json",
+      "size": 119,
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+    },
+    {
+      "file": "tsconfig.node.json",
+      "size": 558,
+      "sha256": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    {
+      "file": "vite.config.ts",
+      "size": 531,
+      "sha256": "c63cfc36051bf624b91625cc012a810f0b3e557dacdd622b42eedea603213eae"
+    },
+    {
+      "file": "third_party/siwc-devkit/LICENSE",
+      "size": 5302,
+      "sha256": "d12fe9f3c01626a133398d70e672b5591c38b1819f3da852b1e3ef8da606facd"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/package.json",
+      "size": 693,
+      "sha256": "40fe0d9ae5c51b19897d87783b9735aaf9af80677d7d840f78fff890b1b759f2"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/index.ts",
+      "size": 19998,
+      "sha256": "ea94e148be97f91d627be98dd4535cc2a38cee4f2bfd5d94d918b2c87f351870"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/oauth.ts",
+      "size": 19856,
+      "sha256": "556e7afc432db0d59b14912a20fdbaa4a76220c8e7d3e404efc5430e4e1a5ba1"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/storage.ts",
+      "size": 15678,
+      "sha256": "51c61d3fe369441951a08642089264cbdac96d9906ebf2f59eeda131153b30a4"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/responses.ts",
+      "size": 5305,
+      "sha256": "66225e439c44b20d77295c800abbc0cbadcf56293cb42bc0733d226e307d3598"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/types.ts",
+      "size": 4638,
+      "sha256": "01f5863b62ed9d6c3b3765123cba1f0c8b73ca395520fc9ba116a16b13980fc1"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/models.ts",
+      "size": 1344,
+      "sha256": "a1e33e85073aa2f79095ecb572c6123b329d60aa7f68cff3591c53f838ef2bd1"
+    },
+    {
+      "file": "third_party/siwc-devkit/packages/local/src/errors.ts",
+      "size": 10754,
+      "sha256": "14a1f7b8c6913feb788059309b527c6ef9f25ffba8470aeb216a1559c6b678d3"
+    },
+    {
+      "file": "README.md",
+      "size": 7243,
+      "sha256": "fc4f62f3c7538a60bd90ce9c901af8239205a99072ee6f78c5df21b25786f1ca"
+    }
+  ]
+}

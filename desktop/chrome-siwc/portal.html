@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Humanities Debate · 토론 연습</title><link rel="stylesheet" href="/portal.css"></head>
+<body>
+  <header class="app-bar"><strong>Humanities Debate</strong><div class="app-status"><span id="status" role="status">연결 준비 중</span><button id="settings-toggle" aria-expanded="false" aria-controls="settings-panel"><span aria-hidden="true">⚙</span> 설정</button></div></header>
+  <aside id="settings-panel" aria-label="계정 및 기록 설정" hidden>
+    <div class="settings-heading"><h2>설정</h2><button id="settings-close">닫기</button></div>
+    <section><h3>ChatGPT 계정</h3><p id="account-info">로그인된 계정이 없습니다.</p>
+      <label for="accounts">저장된 연결</label><select id="accounts"></select>
+      <div class="actions"><button data-action="select-account">계정 전환</button><button data-action="add-account">다른 계정 추가</button></div>
+      <div class="actions"><button data-action="logout">로그아웃</button><button data-action="usage">ChatGPT 사용량 관리</button></div>
+    </section>
+    <section><h3>연결 및 기록</h3><div class="settings-actions"><button data-action="reconnect">연결 오류 복구</button><button id="record-tools">토론 기록 백업·복원</button><button data-action="recover-legacy">기존 0.0.7 기록 백업·복구</button></div>
+      <p class="muted">기록은 현재 연결별로 보관됩니다. 계정을 바꾸기 전에 토론을 종료·저장해 주세요.</p>
+    </section>
+    <button data-action="exit">프로그램 완전 종료</button>
+  </aside>
+  <p id="error" role="alert"></p>
+  <main id="connection-view"><section class="connection-card" aria-labelledby="connection-title">
+    <p class="eyebrow">인문학 토론 연습</p><h1 id="connection-title">연결 준비 중</h1><p id="connection-detail">저장된 ChatGPT 연결을 확인하고 있습니다.</p>
+    <div class="actions"><button id="primary-login" class="primary" data-action="login" hidden>Continue with ChatGPT</button><button id="primary-reconnect" data-action="reconnect" hidden>다시 연결</button><button id="cancel-login" data-action="cancel-login" hidden>로그인 취소</button></div>
+    <p class="muted">본인 계정으로 로그인하고 허용된 구독 사용량으로 연습합니다. 로그인 완료 후 토론 화면이 자동으로 열립니다.</p>
+  </section></main>
+  <iframe title="인문학 토론 연습" allow="microphone 'self'" hidden></iframe>
+  <script type="module" src="/portal.js"></script>
+</body></html>
